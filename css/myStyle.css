@@ -1,0 +1,59 @@
+body {
+    width: 75%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    background-image: linear-gradient(43deg, #000000 26%, #444444 76%, #808080 100%);
+    background-repeat: no-repeat;
+    color: whitesmoke;   
+}
+
+h1 { 
+    color: #54ff54;
+    font-size: 60px;
+    line-height: 0px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+    font-size: 24px;
+    font-style: italic;
+}
+
+h3 {
+    color: #c5ffc5;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    width: 50%;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
+.profilePic {
+    width: 100%;
+    border: 5px solid #54ff54;
+    border-radius: 100%;
+    box-shadow: 2px 2px 4px #000000;    
+}
+
+.jobTitle {
+    color: #d8f1ed;
+    font-style: italic;
+}
+
+.contactMeLink {
+    text-decoration: none;
+    text-align: center;
+    padding-left: 50px;    
+    color: whitesmoke;
+
+}
+
+.contactMeLink:hover {
+    color: #54ff54;
+    font-weight:700;
+}
